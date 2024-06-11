@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Software Engineer | Web Developer</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am John Doe, a passionate software engineer with experience in web development, data analysis, and software design.</p>
+        <p><a href="resume.pdf" target="_blank">Download My Resume</a></p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>Description of the first project. What you did, technologies used, and the outcome.</p>
+            <a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>Description of the second project. What you did, technologies used, and the outcome.</p>
+            <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: JavaScript, Python, Java</li>
+            <li>Web Development: HTML, CSS, React, Node.js</li>
+            <li>Tools: Git, Docker, Jenkins</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: john.doe@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe</p>
+    </footer>
+</body>
+</html>
